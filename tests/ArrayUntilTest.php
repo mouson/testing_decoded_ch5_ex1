@@ -15,4 +15,19 @@ class TestArrayUntil extends TestCase
         $expected = ['Taylor', 'Dayle'];
         $this->assertEquals($expected, $result);
     }
+
+    /**
+     * @expectedException InvalidArgumentException
+     */
+    public function testThrowsExceptionIfKeyDoesNotExist()
+    {
+        // Given this set of data
+        $names = ['Taylor', 'Dayle', 'Matthew', 'Shawn', 'Neil'];
+
+        // When I call the until function and
+        // specify a different key
+        $result = array_until('Bob', $names);
+
+        // Then an exception should be thrown (see doc-block)
+    }
 }
