@@ -15,5 +15,10 @@
   },
   "config": {
     "preferred-install": "dist"
+  },
+  "autoload": {
+    "files": [
+      "app/SampleFunction/ArrayUntil.php"
+    ]
   }
 }
