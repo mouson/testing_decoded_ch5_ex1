@@ -1,0 +1,19 @@
+{
+  "name": "mouson/ch5_1",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "mouson",
+      "email": "mouson@gmail.com"
+    }
+  ],
+  "php": ">=7",
+  "require-dev": {
+    "phpunit/phpunit": "6.0.*"
+  },
+  "config": {
+    "preferred-install": "dist"
+  }
+}
