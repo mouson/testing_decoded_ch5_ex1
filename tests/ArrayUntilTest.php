@@ -1,4 +1,6 @@
 <?php
+require_once __DIR__ . '/../app/SampleFunction/ArrayUntil.php';
+
 use PHPUnit\Framework\TestCase;
 
 class TestArrayUntil extends TestCase
